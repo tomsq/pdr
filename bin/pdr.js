@@ -29,13 +29,13 @@ for (let i = 0; i < args.length; i++) {
 const task = positional.join(" ").trim();
 
 if (flags.help || !task) {
-  console.log(`iwd - plan-and-delegate coding agent
+  console.log(`pdr - Plan, Delegate, Review
 
 The orchestrator plans, specs, and reviews. Sonnet-tier "implementer"
 subagents do the actual coding. Runs against the current directory.
 
 Usage:
-  iwd "<task>" [options]
+  pdr "<task>" [options]
 
 Options:
   -m, --model <model>          Orchestrator model (default: opus)
@@ -47,7 +47,7 @@ Auth: uses ANTHROPIC_API_KEY, or your existing Claude Code login.`);
   process.exit(flags.help ? 0 : 1);
 }
 
-const workflow = readDoc("skills/iwd/SKILL.md");
+const workflow = readDoc("skills/pdr/SKILL.md");
 const implementerPrompt = readDoc("agents/implementer.md");
 
 const stream = query({

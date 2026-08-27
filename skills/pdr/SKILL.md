@@ -1,9 +1,9 @@
 ---
-name: iwd
-description: Plan-and-delegate workflow — the main (Fable) session plans and reviews, Sonnet-tier `implementer` subagents do the coding. Use when invoked as /iwd, or when the user asks to build a feature with delegated/cheaper implementation.
+name: pdr
+description: Plan, Delegate, Review — the main session plans and reviews, Sonnet-tier `implementer` subagents do the coding. Use when invoked as /pdr, or when the user asks to build a feature with delegated/cheaper implementation.
 ---
 
-# Implement (plan on Fable, code on Sonnet)
+# PDR - Plan, Delegate, Review
 
 The main session's job is management: understand, decompose, spec, delegate, review. The `implementer` agent (Sonnet) does the actual edits.
 

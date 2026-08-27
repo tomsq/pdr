@@ -1,10 +1,10 @@
 {
-  "name": "iwd",
+  "name": "pdr",
   "version": "0.1.0",
-  "description": "Plan-and-delegate coding agent: an orchestrator plans, specs, and reviews while Sonnet implementer subagents write the code. Built on the Claude Agent SDK.",
+  "description": "Plan, Delegate, Review: an orchestrator plans, specs, and reviews while Sonnet implementer subagents write the code. Built on the Claude Agent SDK.",
   "type": "module",
   "bin": {
-    "iwd": "./bin/iwd.js"
+    "pdr": "./bin/pdr.js"
   },
   "files": [
     "bin",
@@ -19,7 +19,7 @@
   "engines": {
     "node": ">=18"
   },
-  "repository": "github:tomsq/iwd",
+  "repository": "github:tomsq/pdr",
   "keywords": [
     "claude",
     "agent",

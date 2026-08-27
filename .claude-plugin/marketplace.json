@@ -4,12 +4,12 @@
     "name": "tomsq",
     "url": "https://github.com/tomsq"
   },
-  "description": "The iwd plan-and-delegate workflow, as an installable Claude Code plugin.",
+  "description": "The pdr workflow (Plan, Delegate, Review), as an installable Claude Code plugin.",
   "plugins": [
     {
-      "name": "iwd",
+      "name": "pdr",
       "source": "./",
-      "description": "Plan-and-delegate workflow: the main session plans, specs, and reviews, while Sonnet-tier implementer subagents do the coding.",
+      "description": "Plan, Delegate, Review: the main session plans, specs, and reviews, while Sonnet-tier implementer subagents do the coding.",
       "category": "engineering",
       "keywords": [
         "engineering",
