@@ -6,8 +6,24 @@ Plan-and-delegate workflow for [Claude Code](https://claude.com/claude-code): th
 
 - `skills/iwd/SKILL.md` - the `/iwd` skill: workflow for decomposing a task, speccing units, delegating, reviewing, and verifying
 - `agents/implementer.md` - the `implementer` subagent definition (Sonnet) that executes well-specified implementation tasks
+- `bin/iwd.js` - standalone CLI built on the [Claude Agent SDK](https://code.claude.com/docs/en/agent-sdk) that runs the same workflow outside Claude Code
 
-## Install
+## Run via npx
+
+Runs the plan-and-delegate workflow against the current directory. No install needed:
+
+```sh
+npx iwd "add input validation to the signup form"
+
+# options
+npx iwd "task" -m opus --implementer-model sonnet --max-budget 5
+```
+
+Auth: uses `ANTHROPIC_API_KEY`, or your existing Claude Code login. The orchestrator runs with `permissionMode: "acceptEdits"` and can read, edit, and run commands in the current directory.
+
+You can also run straight from GitHub: `npx github:tomsq/iwd "task"`.
+
+## Install as a Claude Code skill
 
 Copy the files into your Claude Code user config:
 
