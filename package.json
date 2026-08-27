@@ -12,6 +12,10 @@
     "agents",
     "README.md"
   ],
+  "scripts": {
+    "sync-plugin-version": "node scripts/check-plugin-version.mjs",
+    "check-plugin-version": "node scripts/check-plugin-version.mjs --check"
+  },
   "engines": {
     "node": ">=18"
   },

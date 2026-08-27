@@ -1,0 +1,22 @@
+{
+  "name": "tomsq",
+  "owner": {
+    "name": "tomsq",
+    "url": "https://github.com/tomsq"
+  },
+  "description": "The iwd plan-and-delegate workflow, as an installable Claude Code plugin.",
+  "plugins": [
+    {
+      "name": "iwd",
+      "source": "./",
+      "description": "Plan-and-delegate workflow: the main session plans, specs, and reviews, while Sonnet-tier implementer subagents do the coding.",
+      "category": "engineering",
+      "keywords": [
+        "engineering",
+        "delegation",
+        "orchestration",
+        "subagents"
+      ]
+    }
+  ]
+}

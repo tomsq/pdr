@@ -1,0 +1,22 @@
+{
+  "name": "iwd",
+  "version": "0.1.0",
+  "description": "Plan-and-delegate workflow: the main session plans, specs, and reviews, while Sonnet-tier implementer subagents do the coding.",
+  "author": {
+    "name": "tomsq",
+    "url": "https://github.com/tomsq"
+  },
+  "homepage": "https://github.com/tomsq/iwd",
+  "repository": "https://github.com/tomsq/iwd",
+  "license": "MIT",
+  "keywords": [
+    "engineering",
+    "delegation",
+    "orchestration",
+    "subagents",
+    "workflow"
+  ],
+  "skills": [
+    "./skills/iwd"
+  ]
+}
